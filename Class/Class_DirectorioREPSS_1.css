@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+    BOX-SIZING:border-box;
+	text-decoration:none;	
+	}
+	
+header
+	{
+		position:fixed;
+		top:0px;
+		width:100%;
+		 background-color:#FFF;
+		
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  align-content: center;
+		}	
+
+.Contenedor
+        {
+              WIDTH:100%;
+              /*HEIGHT:500px;*/
+              Z-INDEX:1000; 
+              POSITION:absolute;
+              TOP:80px;
+			  text-align:center;
+			  visibility:visible;
+			  background-repeat:no-repeat;
+			  background-position:top;
+			  
+			 
+              
+              /*BACKGROUND-COLOR:Cyan;*/
+             
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+} 
+			#datos
+		{
+			width:100%;
+			display:none;
+			position:relative;
+			top:35px;
+			}
+					.Actualizacion
+							{
+							 font-family:"Arial Black", Gadget, sans-serif;
+							 font-size:x-small;
+							 font-weight:bold;
+							 color:rgba(194, 4, 48, 1);	
+								}	
+			
+		.Botones
+						{
+							/*white-space:normal;*/
+							width: 80%;
+							height: auto;
+							min-height:50px;
+							max-width:600px;
+							padding:1px;text-decoration:none;
+							margin-left:auto;
+							margin-right:auto;
+							margin-top:20px;
+							underline:none;
+							
+							display: inline-flex;
+  							justify-content: center;
+  							align-items: center;
+  							align-content: center;
+							
+							text-shadow: inset 3px 3px 4px rgba(138,141,143,.8);
+         					box-shadow: inset -5px -5px 10px rgba(0,0,0,.6), inset 5px 5px 10px rgba(255,255,255,.5), 5px 5px 10px rgba(99,100,101,.8);
+         					background: linear-gradient(-45deg, rgba(194,4,48,1) 100%, rgba(194,4,48,.7) 60%, rgba(255,255,255,.4) 15%);
+	    
+	   
+	    BORDER-TOP-LEFT-RADIUS:5px;
+	    BORDER-TOP-RIGHT-RADIUS:20PX;
+	    BORDER-BOTTOM-LEFT-RADIUS:20PX;
+	    BORDER-BOTTOM-RIGHT-RADIUS:5px;
+                
+          
+	    CURSOR:pointer;
+	    BORDER:0px;
+	    outline: none;
+	    BORDER-COLOR:Transparent;
+	    
+	    WHITE-SPACE:normal;
+          -MS-WHITE-SPACE:normal;
+          -MOZ-WHITE-SPACE:normal;
+        color:#ffffff;
+	    TEXT-ALIGN:center;
+	    VERTICAL-ALIGN:middle;
+	    FONT-SIZE:large;
+	    font-family: Soberana Sans;	
+	    
+							
+							}
+							
+.enspan
+	{
+		
+		white-space:normal;
+		width: 100%;
+		/*height: 50px;*/
+		max-width:600px;
+		color:rgba(255,255,255,1);
+		
+		text-decoration:none;
+		
+		underline:none;
+							
+		display: inline-flex;
+  		justify-content: center;
+  		align-items: center;
+  		align-content: center;
+
+		}									
+							
+			.BotonesTel
+						{
+							border-radius:10px / 10px;
+							background-color:#43d854;
+							
+							white-space:normal;
+							width: 80%;
+							/*height: 50px;*/
+							max-width:600px;
+							padding:10px;
+							color:rgb(255,255,255);
+							font-family:"Arial Black", Gadget, sans-serif;
+							font-size:medium;
+							text-decoration:none;
+							margin-left:auto;
+							margin-right:auto;
+							margin-top:20px;
+							underline:none;
+							
+							display: inline-flex;
+  							justify-content: center;
+  							align-items: center;
+  							align-content: center;
+							
+							
+							}
+							
+			.Btn_Vacio
+					{
+						width: 1000px;
+							height: 50px;
+						
+						}
+							
+			.Regresar
+					{
+						border-radius:10px / 10px;
+							background:rgba(194,4,48, 1);
+							white-space:normal;
+							width: 90%;
+							height: 50px;
+							max-width:600px;
+							padding:10px;
+							color:#FFF;
+							font-family:"Arial Black", Gadget, sans-serif;
+							text-decoration:none;
+							margin-top:200px;
+							position:relative;
+							top:100px;
+						
+						}
+			
+			.EscudoEdo
+						{
+							/*margin-left:50px;
+							margin-right:50px;*/
+							width:40%;
+							
+							}
+			.LogoSPSS_EDO
+						{
+							width:60%;
+							}
+			.BloqueImagenesEdo
+						{
+							display: inline-flex;
+  							justify-content: center;
+  							align-items: center;
+  							align-content: center;
+						}
+						
+						.imgSP
+									{
+										-webkit-flex: 1;
+          									flex: 1;
+											margin-right:20px;
+										 								
+										}
+										
+						.BloqueImagenesEdo .imgREPSS
+									{
+										width:25%;
+																				
+										}
+						
+						
+			.Menu
+						{
+							position:fixed;
+							bottom:0px;
+							left:0px;
+							background:rgba(99, 100, 101, .7);
+							white-space:normal;
+							width: 100%;
+							height:50px;
+							
+							padding:0px;
+							color:rgba(99,100,101,.5);
+							font-family:"Arial Black", Gadget, sans-serif;
+							text-decoration:none;
+							
+							margin-top:20px;
+							
+							display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+						
+							}
+							
+							
+							
+							
+.Menuariba
+						{
+							position:fixed;
+							top:-20px;
+							left:0px;
+							background:rgba(255,255,255,1);
+							/*white-space:normal;*/
+							width: 100%;
+							height:50px;
+							overflow:hidden;
+							
+							padding:0px;
+							color:rgba(99,100,101,1);
+							font-family:"Arial Black", Gadget, sans-serif;
+							text-decoration:none;
+							
+							margin-top:20px;
+							
+							display: flex;
+							  flex-wrap: nowrap;
+							  justify-content: center;
+							  align-items: center;
+							  z-index:10000;				
+							
+							}							
+
+.Menuariba2
+						{
+							position:fixed;
+							top:30px;
+							left:0px;
+							background:rgba(255,255,255,1);
+							/*white-space:normal;*/
+							width: 100%;
+							height:80px;
+							overflow:hidden;
+							
+							padding:0px;
+							color:rgba(99,100,101,1);
+							font-family:"Arial Black", Gadget, sans-serif;
+							text-decoration:none;
+							
+							margin-top:20px;
+							
+							display: flex;
+							  flex-wrap: nowrap;
+							  justify-content: space-around;
+							  align-items: center;				
+							
+							}	
+							
+			.Btn_Menu
+					{
+						
+						transition-duration: 0.5s, 300ms;
+ 						border-color:#FFF;
+						border-width:10px;
+						
+						
+						width:40px;
+						height:40px;
+						z-index:10000;
+						text-align:center;
+						color:#FFF;
+						font-size:18px;
+						padding:0px;
+						font-weight:bold;
+						
+						  display: inline-flex;
+						  flex-wrap: nowrap;
+						  justify-content: center;
+						  align-items: center;
+						  align-content: center;
+						
+						}
+						
+						.Btn_Menu select
+							{
+								width:300px;
+								height:100%;
+								border-radius:10px;
+								background:rgba(255, 255, 255, .5);
+								color:rgba(194, 4, 48, 1);
+													font-family:"Arial Black", Gadget, sans-serif;
+													font-weight:bold;
+													font-size:large;
+													outline:none;
+													text-decoration:none;
+													padding-left:auto;
+													padding-right:auto;
+													text-align:center;
+								}
+								
+							.Btn_Menu select option
+								{
+									
+									color:rgba(0, 0, 0, 1);
+									ont-family:"Arial Black", Gadget, sans-serif;
+														text-decoration:none;
+														text-align:center;
+														padding-left:auto;
+													padding-right:auto;
+													font-weight:bold;
+													font-size:large;
+													outline:none;
+									}
+									
+									
+									
+						
+						.Btn_Menu:active
+								{
+									transition-duration: 0.5s, 300ms;
+									-webkit-transform: scale(1.1,1);
+									-moz-transform:scale(2,1); 
+									-ms-transform:scale(2,1;
+									transform: scale(2,1);
+								
+							}
+							
+							
+							
+							
+							
+						
+.ImgSPSS						
+		{
+			width:100pxS;
+			max-width:400px;
+			
+			}
+.sombra
+		{
+			background:rgba(99,100,101,.2);
+			}
+			
+			
+
+			.secretario
+				{
+					width:100%;
+					background-color:#F00;
+					}
+					
+.fondo
+		{
+			z-index:-1000;
+			width:100%;
+			height:100%;
+			}					
+			
+		
+			
+
+		
